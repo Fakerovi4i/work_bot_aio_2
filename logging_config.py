@@ -40,7 +40,7 @@ def setup_logging():
     logger.addHandler(console_handler)
 
     # ====================== ФАЙЛ ======================
-    file_handler = logging.FileHandler("errors.log", mode="a", encoding="utf-8", delay=True)
+    file_handler = logging.FileHandler("errors.log", mode="w", encoding="utf-8", delay=True)
     file_handler.setLevel(logging.ERROR)
 
     file_formatter = logging.Formatter(
