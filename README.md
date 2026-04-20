@@ -39,5 +39,8 @@ pip install -r requirements.txt
 
 cp .env.example .env
 # Открой .env и заполни токены
+```
 
+### После этого запусти бота:
+```bash
 python main.py
